@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Namdhinggo", serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    background-color:#F6F5F5;
+}
+.MainContainer{
+    /* border: 2px solid green; */
+    height: 500px;
+    width: 100%;
+    background-color: #F6F5F5;
+    
+}
+#SubMainContainer{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#SubMainContainer ul li{
+    list-style: none;
+    /* display: flex; */
+    justify-content: space-between;
+    float: left;
+    margin: 30px;
+    
+}
+
+#SubMainContainer ul li a:hover{
+  color: #3652AD;
+}
+#SubContainer2{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
+#SubContainer2 h1{
+    font-size: 80px;
+}
+#SubContainer2 p{
+    font-size: 30px;
+}
+#SubMainContainer ul li a{
+    text-decoration: none;
+    /* margin: 10px; */
+    color: black;
+    font-size: 25px;
+    box-shadow: 0 6px 6px rgba(177, 130, 227, 0.6);;
+}
+#Card1{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 40%;
+    padding: 10%;
+}
+#Card1 a{
+    height: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+    text-decoration: none;
+}
+#Card1 h1{
+    color: black;
+}
+#Card1 p{
+    color: black;
+}
+#Card1 span{
+    color: #0C359E;
+}
+#Card1 button a{
+   background-color: #0C359E;
+   color: wheat;
+   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);;
+}
+#Card2{
+    /* border: 2px solid  #0C359E; */
+    /* border-radius: 20px;
+    height: 400px;
+    width: 40%; */
+    height: 350px;
+    width: 200px;
+    /* box-shadow: 2px 2px 2px; */
+}
+.men {
+    height: 90%;
+}
+#Card2 img{
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    right: 100px;
+}
+#EducationContainer{
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.degree{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+}
+.degree ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px; 
+}
+.degree img{
+    height: 50px;
+    width: 100px;
+}
+.degree ul li {
+    list-style: none;
+
+}
+.degree h1{
+    color:#3652AD ;
+}
+.Diploma{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 30%;
+}
+.Diploma img{
+    height: 50px;
+    width: 100px;
+}
+.Diploma ul li{
+    list-style: none;
+
+}
+.Diploma ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    font-size:18px ;
+}
+.Diploma h1{
+    color:#3652AD ;
+}
+.HighSchool{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 30%;
+}
+
+.HighSchool img{
+    height: 50px;
+    width: 100px;
+}
+.HighSchool ul li{
+    list-style: none;
+
+}
+.HighSchool ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    font-size: 18px; 
+}
+.HighSchool h1{
+    color:#3652AD ;
+}
+.skills{
+    /* border: 2px solid green; */
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#Sskills{
+    /* border: 2px solid orange; */
+    height: 200px;
+    width: 30%;
+
+}
+#Sskills ul h1{
+    color: #3652AD;
+}
+#Sskills ul li{
+    list-style: none ;
+    font-size: 20px;
+}
+#Fskills{
+    /* border: 2px solid orange; */
+    height: 200px;
+    width: 30%;
+}
+#Fskills ul h1{
+    color: #3652AD;
+}
+#Fskills ul li{
+    list-style: none ;
+    font-size: 20px;
+}
+#Pskills{
+    /* border: 2px solid orange; */
+    height: 200px;
+    width: 30%;
+}
+#Pskills ul h1{
+    color: #3652AD;
+}
+#Pskills ul li{
+    list-style: none ;
+    font-size: 20px;
+}
+#Project{
+    /* border: 1px solid gold; */
+    height: 400px;
+    width: 100%;
+}
+#ProjectsDetails h1{
+    padding-left: 30px;
+}
+#ProjectsDetails h2{
+    color:#3652AD ;
+}
+#Project1{
+    /* border: 2px solid purple; */
+    height:100px;
+    width: 100%;
+    padding-left: 30px;
+}
+#Project1 p{
+    font-size: 20px;
+}
+#Project2{
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 100%;
+    padding-left: 30px;
+}
+#Project2 p{
+    font-size: 20px;
+}
+
+#Certificates{
+    /* border: 2px solid green; */
+    height: 200px;
+    width: 100%;
+    gap: 200px;
+}
+#Certificates h1{
+    color: black;
+    padding-left:30px ;
+}
+#Certificates ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    /* color: crimson; */
+    /* background-color: black; */
+}
+#Certificates ul li i {
+    padding-left:30px ;
+}
+#Certificates ul li{
+    font-size: 20px;
+}
+#socialConnect{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+#socialConnect ul{
+    /* border: 2px solid green; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+#socialConnect ul li a i{
+    font-size: 50px;
+    color: #3652AD;
+}
+/* @media screen and (max-width: 600px) {
+    #SubMainContainer.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    #SubMainContainer.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  } */
+  
