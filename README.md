@@ -1,44 +1,36 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--config-env=<name>=<envvar>] <command> [<args>]
+# My Portfolio Website
 
-These are common Git commands used in various situations:
+Welcome to my portfolio website! This website showcases my education, certifications, and achievements. It is built using HTML and CSS.
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+## Table of Contents
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+- Overview
+- Education
+- Certifications
+- Achievements
+- Technologies Used
+- Getting Started
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+## Overview
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+This portfolio website is a comprehensive showcase of my educational background, professional certifications, and notable achievements. The website is designed to be simple, clean, and user-friendly, ensuring that visitors can easily navigate and find the information they are looking for.
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+## Education
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+- **Bachelor of Computer Applications (BCA)**
+  - **Institution:** SGT College
+  - **CGPA:** 8.9
+  - **Year of Completion:** 2023
+
+## Technologies Used
+
+- HTML5
+- CSS3
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps:
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/karthik6810/my-portfolio
